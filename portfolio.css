@@ -17,10 +17,18 @@ h3 {
     color:#CC76A1;
     font-family: "Proxima Nova";
     text-align: center;
+    text-decoration: none;
 }
 
 p {
     color:#e9f1f7;
+}
+
+img {
+    width:20%;
+    height:auto;
+    margin-left:40%;
+    margin-right: 40%;
 }
 
 .text {
@@ -40,16 +48,31 @@ p {
     color:#CC76A1;
 }
 
+.text.home {
+    text-align: center;
+}
+
 .text.about {
     padding:1px;
 }
 
+.text.p {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
 a {
     color:#e9f1f7;
+    text-decoration: none;
 }
 
 a.visited {
     color:#e9f1f7;
+    text-decoration: none;
+}
+
+a h3 {
+    text-decoration: none;
 }
 
 /* Nav bar */

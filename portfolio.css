@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(fonts/proximanova_regular.ttf) format('truetype')
+}
+
+html {
+    background-color:#333333;
+}
+
+h1 {
+    color:#e9f1f7;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+
+h3 {
+    color:#457eac;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+
+p {
+    color:#e9f1f7;
+}
+
+.text {
+    font-family: "Proxima Nova";
+    color:#e9f1f7;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.text.flavor {
+    font-style: italic;
+}
+
+.text.divider {
+    color:#457eac;
+}
+
+a {
+    color:#e9f1f7;
+}
+
+a.visited {
+    color:#e9f1f7;
+}
+
+/* Nav bar */
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    padding-bottom: 30px;
+}
+
+li {
+    display:inline;
+}
+
+li a {
+    text-decoration: none;
+    font-family: "Proxima Nova";
+    background-color: #CC76A1;
+    color:#e9f1f7;
+    text-align: center;
+    border:2px solid #111;
+    padding:15px 15px;
+}
+
+li a:visited {
+    color:#e9f1f7;
+}
+
+li a:hover {
+    background-color: #111;
+}

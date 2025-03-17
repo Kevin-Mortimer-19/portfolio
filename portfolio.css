@@ -8,7 +8,7 @@ html {
 }
 
 h1 {
-    color:#e9f1f7;
+    color:#CC76A1;
     font-family: "Proxima Nova";
     text-align: center;
 }
@@ -38,6 +38,10 @@ p {
 
 .text.divider {
     color:#CC76A1;
+}
+
+.text.about {
+    padding:1px;
 }
 
 a {
